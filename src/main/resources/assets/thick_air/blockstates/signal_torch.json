@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "lit=false": {
+      "model": "thick_air:block/signal_torch"
+    },
+    "lit=true": {
+      "model": "thick_air:block/signal_torch"
+    }
+  }
+}

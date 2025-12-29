@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "thick_air:air_bladder",
+    "thick_air:reinforced_air_bladder"
+  ]
+}

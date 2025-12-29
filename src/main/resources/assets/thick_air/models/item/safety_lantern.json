@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "thick_air:item/safety_lantern_yellow"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "thick_air:air_quality_level": 0.0
+      },
+      "model": "thick_air:item/safety_lantern_green"
+    },
+    {
+      "predicate": {
+        "thick_air:air_quality_level": 0.1
+      },
+      "model": "thick_air:item/safety_lantern_blue"
+    },
+    {
+      "predicate": {
+        "thick_air:air_quality_level": 0.2
+      },
+      "model": "thick_air:item/safety_lantern_yellow"
+    },
+    {
+      "predicate": {
+        "thick_air:air_quality_level": 0.3
+      },
+      "model": "thick_air:item/safety_lantern_red"
+    }
+  ]
+}

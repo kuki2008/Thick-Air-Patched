@@ -1,0 +1,34 @@
+{
+  "itemGroup.thick_air": "Thick Air",
+
+  "block.thick_air.signal_torch": "Signal Torch",
+  "block.thick_air.safety_lantern": "Safety Lantern",
+
+  "item.thick_air.respirator": "Respirator",
+  "item.thick_air.air_bladder": "Air Bladder",
+  "item.thick_air.reinforced_air_bladder": "Reinforced Air Bladder",
+  "item.thick_air.soulfire_bottle": "Soulfire Bottle",
+  "item.thick_air.safety_lantern": "Safety Lantern",
+  "item.thick_air.signal_torch": "Signal Torch",
+
+  "advancement.thick_air.root.title": "Thick Air",
+  "advancement.thick_air.root.description": "The air is getting thicker...",
+  "advancement.thick_air.breathe_green.title": "Fresh Air",
+  "advancement.thick_air.breathe_green.description": "Breathe in a green air quality zone",
+  "advancement.thick_air.breathe_blue.title": "Soul Sanctuary",
+  "advancement.thick_air.breathe_blue.description": "Find refuge near soul fire",
+  "advancement.thick_air.breathe_yellow.title": "Getting Stuffy",
+  "advancement.thick_air.breathe_yellow.description": "Experience yellow air quality",
+  "advancement.thick_air.breathe_red.title": "Can't Breathe!",
+  "advancement.thick_air.breathe_red.description": "Suffocate in red air quality",
+  "advancement.thick_air.use_air_bladder.title": "Portable Air",
+  "advancement.thick_air.use_air_bladder.description": "Use an Air Bladder to restore oxygen",
+  "advancement.thick_air.use_respirator.title": "Protection",
+  "advancement.thick_air.use_respirator.description": "Wear a Respirator for protection",
+  "advancement.thick_air.use_soulfire.title": "Soul Breath",
+  "advancement.thick_air.use_soulfire.description": "Use a Soulfire Bottle to restore air",
+  "advancement.thick_air.signalify_torch.title": "Signal Fire",
+  "advancement.thick_air.signalify_torch.description": "Convert a torch into a signal torch",
+  "advancement.thick_air.craft_safety_lantern.title": "Air Monitor",
+  "advancement.thick_air.craft_safety_lantern.description": "Craft a Safety Lantern to monitor air quality"
+}

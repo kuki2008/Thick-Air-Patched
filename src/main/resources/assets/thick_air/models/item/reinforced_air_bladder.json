@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "thick_air:item/reinforced_air_bladder_full"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "minecraft:damage": 0.0
+      },
+      "model": "thick_air:item/reinforced_air_bladder_full"
+    },
+    {
+      "predicate": {
+        "minecraft:damage": 0.33333334
+      },
+      "model": "thick_air:item/reinforced_air_bladder_used"
+    },
+    {
+      "predicate": {
+        "minecraft:damage": 0.6666667
+      },
+      "model": "thick_air:item/reinforced_air_bladder_almost_empty"
+    }
+  ]
+}
