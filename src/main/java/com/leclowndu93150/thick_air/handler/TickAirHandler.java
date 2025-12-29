@@ -38,9 +38,13 @@ public class TickAirHandler {
             event.setConsumeAirAmount(-airAmount);
             event.setRefillAirAmount(0);
         } else {
-            // No change (BLUE quality or protected) - can breathe but don't refill
+            // No change (BLUE quality or protected) - can breathe and slowly refill
             event.setCanBreathe(true);
-            event.setRefillAirAmount(0);
+            if (entity.level().getGameTime() % 4 == 0) {
+                event.setRefillAirAmount(1);
+            } else {
+                event.setRefillAirAmount(0);
+            }
         }
     }
 }
