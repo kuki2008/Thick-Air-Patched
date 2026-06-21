@@ -1,5 +1,6 @@
 package com.leclowndu93150.thick_air.handler;
 
+import com.leclowndu93150.thick_air.Config;
 import com.leclowndu93150.thick_air.ModRegistry;
 import com.leclowndu93150.thick_air.api.AirQualityHelper;
 import com.leclowndu93150.thick_air.api.AirQualityLevel;
@@ -38,10 +39,14 @@ public class TickAirHandler {
             event.setConsumeAirAmount(-airAmount);
             event.setRefillAirAmount(0);
         } else {
-            // No change (BLUE quality or protected) - can breathe and slowly refill
+            //I have a BLUE house with a blue window...
             event.setCanBreathe(true);
-            if (entity.level().getGameTime() % 4 == 0) {
-                event.setRefillAirAmount(1);
+            if (Config.blueAirRegenerationInterval != 0) {
+                if (entity.level().getGameTime() % Config.blueAirRegenerationInterval == 0) {
+                    event.setRefillAirAmount(1);
+                } else {
+                    event.setRefillAirAmount(0);
+                }
             } else {
                 event.setRefillAirAmount(0);
             }

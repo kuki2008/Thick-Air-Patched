@@ -56,6 +56,17 @@ public class Config {
             .comment("The radius in which all blocks defined in the green air providers tag (usually various portal blocks) project a bubble of air around them.")
             .defineInRange("greenAirProviderRadius", 9.0, 1.0, 32.0);
 
+    private static final ModConfigSpec.IntValue BLUE_AIR_REFILL_INTERVAL = BUILDER
+            .pop()
+            .push("Intervals")
+            .comment("Air regeneration interval(default regenerates every 4 ticks) from all blocks defined in the blue air providers tag (usually soul fire related blocks).",
+                    "(0 — disables air regeneration, so blue air only keeps current air level)")
+            .defineInRange("blueAirRegenerationInterval", 4, 0, 32);
+
+    private static final ModConfigSpec.IntValue YELLOW_AIR_DRAIN_INTERVAL = BUILDER
+            .comment("Air draining interval(default drains every 4 ticks) from all blocks defined in the yellow air providers tag.")
+            .defineInRange("yellowAirDrainingInterval", 4, 1, 32);
+
     static final ModConfigSpec SPEC;
 
     static {
@@ -70,6 +81,8 @@ public class Config {
     public static double blueAirProviderRadius;
     public static double redAirProviderRadius;
     public static double greenAirProviderRadius;
+    public static double blueAirRegenerationInterval;
+    public static double yellowAirDrainingInterval;
     private static Map<ResourceLocation, DimensionEntry> dimensionEntries = null;
 
     @Nullable
@@ -175,6 +188,8 @@ public class Config {
         blueAirProviderRadius = BLUE_AIR_PROVIDER_RADIUS.get();
         redAirProviderRadius = RED_AIR_PROVIDER_RADIUS.get();
         greenAirProviderRadius = GREEN_AIR_PROVIDER_RADIUS.get();
+        blueAirRegenerationInterval = BLUE_AIR_REFILL_INTERVAL.get();
+        yellowAirDrainingInterval = YELLOW_AIR_DRAIN_INTERVAL.get();
         // Reset dimension entries cache so it gets reparsed
         dimensionEntries = null;
     }

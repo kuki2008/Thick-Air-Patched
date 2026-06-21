@@ -58,7 +58,7 @@ public enum AirQualityLevel implements StringRepresentable {
     YELLOW(false, false, "breathing_equipment") {
         @Override
         int getAirAmount(LivingEntity entity) {
-            return entity.level().getGameTime() % 4 == 0 ? super.getAirAmount(entity) : 0;
+            return entity.level().getGameTime() % Config.yellowAirDrainingInterval == 0 ? super.getAirAmount(entity) : 0;
         }
     },
     /**
