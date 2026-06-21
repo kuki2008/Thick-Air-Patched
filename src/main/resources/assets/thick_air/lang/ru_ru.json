@@ -1,0 +1,34 @@
+{
+  "itemGroup.thick_air": "Симулятор Астматика",
+
+  "block.thick_air.signal_torch": "Сигнальный факел",
+  "block.thick_air.safety_lantern": "Индикаторная лампа",
+
+  "item.thick_air.respirator": "Респиратор",
+  "item.thick_air.air_bladder": "Воздушный Мешочек",
+  "item.thick_air.reinforced_air_bladder": "Усиленный Воздушный Мешочек",
+  "item.thick_air.soulfire_bottle": "Флакон Огня Душ",
+  "item.thick_air.safety_lantern": "Индикаторная Лампа",
+  "item.thick_air.signal_torch": "Сигнальный Факел",
+
+  "advancement.thick_air.root.title": "Симулятор Астматика",
+  "advancement.thick_air.root.description": "Каждый вдох становится ценнее...",
+  "advancement.thick_air.breathe_green.title": "Свежий воздух",
+  "advancement.thick_air.breathe_green.description": "Дыши полной грудью в зоне с чистым воздухом!",
+  "advancement.thick_air.breathe_blue.title": "Точка опоры",
+  "advancement.thick_air.breathe_blue.description": "Окажитесь в зоне с нейтральным качеством воздуха",
+  "advancement.thick_air.breathe_yellow.title": "Душновато...",
+  "advancement.thick_air.breathe_yellow.description": "Окажитесь в зоне с ухудшенным качеством воздуха",
+  "advancement.thick_air.breathe_red.title": "I Can't Breathe!",
+  "advancement.thick_air.breathe_red.description": "Начните задыхаться в зоне с опасным качеством воздуха",
+  "advancement.thick_air.use_air_bladder.title": "Карманы-воздуханы",
+  "advancement.thick_air.use_air_bladder.description": "Используйте воздуханский мешочек, чтобы восполнить запас воздуха",
+  "advancement.thick_air.use_respirator.title": "По технике безопасности!",
+  "advancement.thick_air.use_respirator.description": "Наденьте респиратор",
+  "advancement.thick_air.use_soulfire.title": "Дыхание душ",
+  "advancement.thick_air.use_soulfire.description": "Используйте флакон огня душ, чтобы восполнить запас воздуха",
+  "advancement.thick_air.signalify_torch.title": "Сигнальный огонь",
+  "advancement.thick_air.signalify_torch.description": "Превратите обычный факел в сигнальный",
+  "advancement.thick_air.craft_safety_lantern.title": "Теперь понятно.",
+  "advancement.thick_air.craft_safety_lantern.description": "Создайте лампу безопасности для определения качества воздуха"
+}
